@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <h1></h1>
+
+    <form method="POST">
+        <div clas="field">
+            <input id="budget" type="number" name="budget" required>
+            <label>Budget</label>
+        </div>
+        <div clas="field">
+            <input id="persen" type="number" name="persen" required>
+            <label>Percent</label>
+        </div>
+        <div clas="field">
+            <input id="kota" type="text" name="kota" required>
+            <label>Kota</label>
+        </div>
+
+        <div class="field">
+            <button id="list-kost" type="submit" formaction="/list-kost">
+                Lihat daftar kost
+            </button>
+        </div>
+        <div class="field">
+            <button id="list-10-kost" type="submit" formaction="/list-10-kost">
+                Lihat daftar 10 kost
+            </button>
+        </div>
+        <div class="field">
+            <button id="recommended-kost" type="submit" formaction="/recommended-kost">
+                Lihat pilihan kost terbaik
+            </button>
+        </div>
+    </form>
+
+</body>
+
+</html>
